@@ -22,6 +22,7 @@ htop
 jq
 kubectl
 less
+libifxaudit
 man
 mc
 msodbcsql17
