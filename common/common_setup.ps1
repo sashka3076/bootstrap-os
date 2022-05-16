@@ -54,6 +54,7 @@ if (-not $NoPackages) {
         Write-Host "`nUpdating Azure CLI extensions..."
         az extension add -n azure-devops   --upgrade -y 2>&1
         az extension add -n azure-firewall --upgrade -y 2>&1
+        az extension add -n providerhub    --upgrade -y 2>&1
         az extension add -n resource-graph --upgrade -y 2>&1
     }
 }
