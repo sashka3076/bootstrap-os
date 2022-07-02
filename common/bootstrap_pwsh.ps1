@@ -30,6 +30,7 @@ if (-not $NoPackages) {
     if ($psReadLineOptionCommand -and $psReadLineOptionCommand.Version -ge 2.1) {
         Set-PSReadLineOption -PredictionSource History
     }
+    AddorUpdateModule PSWSMan
     AddorUpdateModule SqlServer
     AddorUpdateModule Terminal-Icons
     # AddorUpdateModule VSTeam
